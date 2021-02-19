@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kendrick's Math Calculator</title>
+</head>
+<body>
+<label id="TopLabel">Number 1</label>
+<input id="firstMultiplier"></input>
+<p><label id="BottomLabel">Number 2</label>
+<input id="secondMultiplier"></input>
+<p></p><button onclick="MathFunction()">Try it!</button>
+<script>
+function MathFunction() {
+  var labelName = document.getElementById("firstMultiplier").value;
+  var secondNumber = document.getElementById("secondMultiplier").value;
+  alert(labelName*secondNumber);
+}
+</script>
+</body>
+</html>
